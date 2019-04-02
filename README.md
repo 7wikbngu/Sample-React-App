@@ -1,8 +1,8 @@
 # Sample-React-App
 Simple React app as personal project for learning purposes
-=======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+=======
 ## Available Scripts
 
 In the project directory, you can run:
