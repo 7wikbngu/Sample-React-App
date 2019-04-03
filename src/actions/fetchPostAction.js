@@ -1,4 +1,4 @@
-import { FETCH_POSTS, NEW_POST } from './types';
+import { FETCH_POSTS } from './types';
 
 export const fetchPosts = () => dispatch => {
     console.log("fetching");
@@ -7,9 +7,6 @@ export const fetchPosts = () => dispatch => {
         .then(posts => dispatch({
             type: FETCH_POSTS,
             payload: posts
-        }))
-}
-
-export const createPost = (postData) => dispatch => {
-    
-}
+        })
+    );
+};
